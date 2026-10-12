@@ -72,7 +72,6 @@ projetoAutomacao
 ├── README.md
 └── requirements.txt
 
-
 # Instalação
 Clone o projeto:
 
@@ -90,7 +89,6 @@ Executar toda a suíte:
 * robot -d Results Tests/
 
 Executar por tag:
-
 * robot -d results -i loginPage tests/
 * robot -d results -i cart tests/ 
 * robot -d results -i checkout tests/ 

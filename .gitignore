@@ -1,0 +1,16 @@
+# Robot Framework
+results/
+log/
+output.xml
+report.html
+log.html
+
+# Screenshots
+selenium-screenshot-*.png
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/settings.json

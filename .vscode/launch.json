@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "robotcode",
+            "name": "Debug Register",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "target": "${workspaceFolder}/tests/registerPageTest.robot"
+        }
+    ]
+}

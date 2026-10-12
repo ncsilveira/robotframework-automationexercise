@@ -1,0 +1,9 @@
+requests
+robotframework
+robotframework-jsonlibrary
+robotframework-pythonlibcore
+robotframework-requests
+robotframework-pabot
+robotframework-seleniumlibrary
+selenium
+robotframework-faker

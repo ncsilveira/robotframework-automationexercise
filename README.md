@@ -25,52 +25,50 @@ Projeto desenvolvido para automação de testes funcionais da aplicação Automa
 - VS Code 
 
 # Estrutura do Projeto
-
-projetoAutomacao
+```text
+projetoAutomacao/
+├── config/
+│   ├── exporters/
+│   ├── helpers.robot
+│   └── libraries.robot
 │
-├── config
-│   ├── exporters
-│   │   ├── helpers.robot
-│   │   ├── libraries.robot
-│   │   ├── pageObjects.robot
-│   │   └── stepsKeywords.robot
-│   │
-│   └── setup
-│       └── driver.robot
+├── pageObjects.robot/
+│   ├── stepsKeywords.robot
+│   ├── setup/
+│   │   └── driver.robot
+│   └── Keywords_steps/
+│       ├── hooks/
+│       │   └── commonHooks.robot
+│       ├── loginPageSteps.robot
+│       ├── registerPageSteps.robot
+│       ├── productSearchPageSteps.robot
+│       ├── cartPageSteps.robot
+│       └── checkoutPageSteps.robot
 │
-├── Keywords_steps
-│   ├── hooks
-│   │   └── commonHooks.robot
-│   │
-│   ├── loginPageSteps.robot
-│   ├── registerPageSteps.robot
-│   ├── productSearchPageSteps.robot
-│   ├── cartPageSteps.robot
-│   └── checkoutPageSteps.robot
-│
-├── pageElements
+├── pageElements/
 │   ├── loginPage.robot
 │   ├── registerPage.robot
 │   ├── productSearchPage.robot
 │   ├── cartPage.robot
 │   └── checkoutPage.robot
 │
-├── resources
-│   └── data
-│       ├── loginData.robot
-│       └── productData.robot
+├── resources/
+│   ├── data/
+│   │   ├── loginData.robot
+│   │   └── productData.robot
+│   └── productData.robot
 │
-├── tests
+├── tests/
 │   ├── loginPageTest.robot
 │   ├── registerPageTest.robot
 │   ├── productSearchPageTest.robot
 │   ├── cartPageTest.robot
 │   └── checkoutPageTest.robot
 │
-├── results
-│
+├── results/
 ├── README.md
 └── requirements.txt
+```
 
 # Instalação
 Clone o projeto:

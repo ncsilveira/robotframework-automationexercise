@@ -75,7 +75,7 @@ projetoAutomacao
 # Instalação
 Clone o projeto:
 
-git clone https://github.com/seu-usuario/projetoAutomacao.git
+git clone https://github.com/ncsilveira/robotframework-automationexercise
 
 Acesse a pasta:
 cd projetoAutomacao

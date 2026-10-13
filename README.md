@@ -104,5 +104,5 @@ Após a execução são gerados automaticamente:
 Localizados na pasta:
 results/ 
 
-![alt text](image-1.png)
+![alt text](relatorioImage.png)
 

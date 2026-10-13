@@ -27,46 +27,55 @@ Projeto desenvolvido para automação de testes funcionais da aplicação Automa
 # Estrutura do Projeto
 ```text
 projetoAutomacao/
+├── .vscode/
+│   └── launch.json
+│
 ├── config/
 │   ├── exporters/
-│   ├── helpers.robot
-│   └── libraries.robot
-│
-├── pageObjects.robot/
-│   ├── stepsKeywords.robot
+│   │   ├── helpers.robot
+│   │   ├── libraries.robot
+│   │   ├── pageObjects.robot
+│   │   └── stepsKeywords.robot
+│   │
 │   ├── setup/
 │   │   └── driver.robot
+│   │
 │   └── Keywords_steps/
-│       ├── hooks/
-│       │   └── commonHooks.robot
-│       ├── loginPageSteps.robot
-│       ├── registerPageSteps.robot
-│       ├── productSearchPageSteps.robot
-│       ├── cartPageSteps.robot
-│       └── checkoutPageSteps.robot
+│       └── hooks/
+│           ├── commonHooks.robot
+│           ├── cartPageSteps.robot
+│           ├── checkoutPageSteps.robot
+│           ├── loginPageSteps.robot
+│           ├── productSearchPageSteps.robot
+│           └── registerPageSteps.robot
+│
+├── log/
 │
 ├── pageElements/
-│   ├── loginPage.robot
-│   ├── registerPage.robot
-│   ├── productSearchPage.robot
 │   ├── cartPage.robot
-│   └── checkoutPage.robot
+│   ├── checkoutPage.robot
+│   ├── loginPage.robot
+│   ├── productSearchPage.robot
+│   └── registerPage.robot
 │
 ├── resources/
-│   ├── data/
-│   │   ├── loginData.robot
-│   │   └── productData.robot
-│   └── productData.robot
-│
-├── tests/
-│   ├── loginPageTest.robot
-│   ├── registerPageTest.robot
-│   ├── productSearchPageTest.robot
-│   ├── cartPageTest.robot
-│   └── checkoutPageTest.robot
+│   └── data/
+│       ├── loginData.Robot
+│       └── productData.Robot
 │
 ├── results/
+│
+├── tests/
+│   ├── log/
+│   ├── cartPageTest.robot
+│   ├── checkoutPageTest.robot
+│   ├── loginPageTest.robot
+│   ├── productSearchPageTest.robot
+│   └── registerPageTest.robot
+│
+├── .gitignore
 ├── README.md
+├── relatorioImage.png
 └── requirements.txt
 ```
 

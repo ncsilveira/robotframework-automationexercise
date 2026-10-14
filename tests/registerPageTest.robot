@@ -3,6 +3,7 @@ Documentation           Add test case register page
 
 Resource         ${EXECDIR}/config/exporters/helpers.robot
 Resource         ${EXECDIR}/Keywords/steps/hooks/commonHooks.robot
+
 Test Setup       Open browser
 Test Teardown    Close Session
 

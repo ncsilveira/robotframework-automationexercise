@@ -4,6 +4,7 @@ Documentation           Add test case product page
 Resource         ${EXECDIR}/config/exporters/helpers.robot
 Resource         ${EXECDIR}/Keywords/steps/hooks/commonHooks.robot
 Resource         ${EXECDIR}/resources/data/productData.Robot
+
 Test Setup       Open browser
 Test Teardown    Close Session
 
@@ -13,6 +14,7 @@ W04-Product search
     Given I am on the Products page
     when I search for a product
     Then the product must be successfully returned
+    
 W09-Category navigation
     [Tags]  product   searchCategory   positive
     Given I am on the Products page

@@ -4,6 +4,7 @@ Documentation           Add test case chekout page
 Resource         ${EXECDIR}/config/exporters/helpers.robot
 Resource         ${EXECDIR}/Keywords/steps/hooks/commonHooks.robot
 Resource         ${EXECDIR}/resources/data/loginData.robot
+
 Test Setup       Open browser
 Test Teardown    Close Session
 

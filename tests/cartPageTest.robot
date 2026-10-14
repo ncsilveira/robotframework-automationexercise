@@ -3,6 +3,7 @@ Documentation           Add test case cart page
 
 Resource         ${EXECDIR}/config/exporters/helpers.robot
 Resource         ${EXECDIR}/Keywords/steps/hooks/commonHooks.robot
+
 Test Setup       Open browser
 Test Teardown    Close Session
 

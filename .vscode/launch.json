@@ -3,10 +3,10 @@
     "configurations": [
         {
             "type": "robotcode",
-            "name": "Debug Register",
+            "name": "Debug Current Test",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "target": "${workspaceFolder}/tests/registerPageTest.robot"
+            "target": "${file}"
         }
     ]
 }
